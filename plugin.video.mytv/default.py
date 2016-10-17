@@ -1,14 +1,15 @@
 import xbmcaddon, util
 
 channels = {
-
-    'TVE1 rtmp' : 'rtmp://rtvefs.fplive.net:1935/rtve-live-live?ovpfv=2.1.2 playpath=RTVE_LA1_LV3_WEB_NOG swfUrl=http://swf.rtve.es/swf/4.2.26/RTVEPlayerVideo.swf pageUrl=http://www.rtve.es/noticias/directo-la-1/ swfVfy=true live=true timeout=10',
-    'TVE1 iOS' : 'http://iphonelive.rtve.es/LA1_LV3_IPH/LA1_LV3_IPH.m3u8',
-    'TVE2 iOS' : 'http://iphonelive.rtve.es/LA2_LV3_IPH/LA2_LV3_IPH.m3u8',
-    'Teledeporte iOS' : 'http://iphonelive.rtve.es/TDP_LV3_IPH/TDP_LV3_IPH.m3u8',
-    'Canal 24H iOS' : 'http://iphonelive.rtve.es/24H_LV3_IPH/24H_LV3_IPH.m3u8',
-    'Antena3' : 'rtmp://antena3fms35livefs.fplive.net/antena3fms35live-live/ playpath=stream-antena3_1 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://www.omegateam.byethost7.com/ch/i-antena-3.php --live',
-    'La Sexta' : 'rtmp://antena3fms35livefs.fplive.net/antena3fms35live-live/ playpath=stream-lasexta_1 swfUrl=http://player.longtailvideo.com/player.swf live=1 pageUrl=http://biophobia.es/?p=343'
+    '1 TVE1' : 'http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1lv3aomgl7/_definst_/live.m3u8',
+    '2 TVE2' : 'http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live.m3u8',
+    '3 Antena3' : 'http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-p.m3u8',
+    '4 Cuatro' : 'http://mdsiosgeo2-lh.akamaihd.net/i/mitele/esmediaset_22@168498/index_0_av-b.m3u8',
+    '5 Cinco' : 'http://mdsios1-lh.akamaihd.net/i/mitele/esmediaset_11@168471/index_0_av-b.m3u8',
+    '6 La Sexta' : 'http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8',
+    '7 24H' : 'http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl8-24hlv3aomgl8/_definst_/live.m3u8',
+    '8 TDP' : 'http://hlslive.rtve.es/TDP_LV3_IPH/master.m3u8',
+    '9 Test' : 'http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1lv3aomgl7/_definst_/live.m3u8',
 
 }
 
@@ -31,4 +32,3 @@ if 'play' in parameters:
     playVideo(parameters)
 else:
     buildMenu()
-
