@@ -1,2 +1,2 @@
-vim scp://osmc@192.168.0.5/.kodi/addons/plugin.video.mytv/default.py
+vim scp://osmc@osmc/.kodi/addons/plugin.video.mytv/default.py
 
