@@ -1,0 +1,13 @@
+TVE1:
+2016-12-28 22:00 http://hlsackdn_gl7-lh.akamaihd.net/i/hlslive_1@439316/master.m3u8
+2016-12-29 12:55 http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1lv3aomgl7/_definst_/live.m3u8
+
+TVE2:
+2016-12-29 12:55 http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live.m3u8
+
+24H:
+2016-12-28 22:20 http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl8-24hlv3aomgl8/_definst_/live.m3u8
+
+Cataluna:
+2016-12-28 22:30 http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1calv3aomgl7/_definst_/live.m3u8
+
