@@ -1,5 +1,9 @@
 import xbmcaddon, util, commands
 
+# To install youtube-dl run the following commands:
+# sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+# sudo chmod a+rx /usr/local/bin/youtube-dl
+
 channels = {
     '01 TVE1' : 'url: http://www.rtve.es/directo/la-1/',
     '02 TVE2' : 'url: http://www.rtve.es/directo/la-2/',
